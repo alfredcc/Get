@@ -4,10 +4,6 @@
 
 import Foundation
 
-#if canImport(FoundationNetworking)
-import FoundationNetworking
-#endif
-
 /// A response with an associated value and metadata.
 public struct Response<T> {
     /// Decoded response value.

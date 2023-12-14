@@ -4,10 +4,6 @@
 
 import Foundation
 
-#if canImport(FoundationNetworking)
-import FoundationNetworking
-#endif
-
 /// An HTTP network request.
 public struct Request<Response>: @unchecked Sendable {
     /// HTTP method, e.g. "GET".

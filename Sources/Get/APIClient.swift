@@ -3,9 +3,6 @@
 // Copyright (c) 2021-2022 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-#if canImport(FoundationNetworking)
-import FoundationNetworking
-#endif
 
 /// Performs network requests constructed using ``Request``.
 public actor APIClient {
